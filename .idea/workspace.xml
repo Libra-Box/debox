@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="fix protpbuf">
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/fuzz.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/fuzz_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/limit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/msgio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/num.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/uvarint_reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/uvarint_writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/varint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/varint_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/box/msgio/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug-report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/doc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/enhancement.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/auto-comment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-image.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/golang-analysis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/sync-release-assets.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/testground-on-push.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/pb/messenger.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/pb/messenger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/pb/proto.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/pb/proto.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="GoVcsConfiguration">
+    <option name="GO_FMT" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IWH9gvqh8pfqZdGyFEZ7GC7QE5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/box" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/box" />
+      <recent name="$PROJECT_DIR$/pkg" />
+      <recent name="$PROJECT_DIR$/core/box/pb" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/box/pb" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="merge ipfs latest" />
+    <MESSAGE value="edit bootstrap_peers" />
+    <MESSAGE value="fix protpbuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix protpbuf" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+</project>
