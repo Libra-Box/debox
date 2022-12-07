@@ -5,42 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="fix protpbuf">
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/fuzz.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/fuzz_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/limit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/limit_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio/msgio.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/msgio_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/num.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/interfaces.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/uvarint_reader.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/protoio/uvarint_writer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/varint.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/varint_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/box/msgio/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug-report.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/doc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/enhancement.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/auto-comment.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-image.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/golang-analysis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/sync-release-assets.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/testground-on-push.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/pb/messenger.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/pb/messenger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/pb/proto.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/pb/proto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/msgio.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/msgio/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/pb/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +62,8 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/box" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
