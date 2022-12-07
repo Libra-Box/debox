@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="fix protpbuf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/msgio/msgio.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/msgio/version.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/box/pb/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/version.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
