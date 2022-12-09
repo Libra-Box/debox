@@ -90,7 +90,6 @@ require (
 	github.com/libp2p/go-libp2p-record v0.2.0
 	github.com/libp2p/go-libp2p-routing-helpers v0.4.1
 	github.com/libp2p/go-libp2p-testing v0.12.0
-	github.com/libp2p/go-msgio v0.2.0
 	github.com/libp2p/go-socket-activation v0.1.0
 	github.com/liyue201/golib v0.0.0-20210225015707-e527cc337867
 	github.com/miekg/dns v1.1.50
@@ -195,6 +194,7 @@ require (
 	github.com/libp2p/go-libp2p-swarm v0.11.0 // indirect
 	github.com/libp2p/go-libp2p-xor v0.1.0 // indirect
 	github.com/libp2p/go-mplex v0.7.0 // indirect
+	github.com/libp2p/go-msgio v0.2.0 // indirect
 	github.com/libp2p/go-nat v0.1.0 // indirect
 	github.com/libp2p/go-netroute v0.2.1 // indirect
 	github.com/libp2p/go-openssl v0.1.0 // indirect
