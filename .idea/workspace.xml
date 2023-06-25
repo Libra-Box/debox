@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="update version 0.18.0" />
+    <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="fix protobuf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/service/httpServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/service/httpServer.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +33,10 @@
     <option name="GO_FMT" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/core/box/pb/messenger.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/core/box/service/relay.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/box/msgio/protoio/interfaces.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/box/pb/messenger.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/box/service/relay.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +49,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
+    <property name="RunConfigurationTargetLRU" value="ac6b5eb4-7d23-4086-871c-6cf3d0115fd3" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,6 +76,19 @@
       <recent name="$PROJECT_DIR$/core/box/pb" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/ac6b5eb4-7d23-4086-871c-6cf3d0115fd3/console.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="ac6b5eb4-7d23-4086-871c-6cf3d0115fd3" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.console.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -86,7 +104,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -107,7 +125,8 @@
     <MESSAGE value="merge ipfs latest" />
     <MESSAGE value="edit bootstrap_peers" />
     <MESSAGE value="fix protpbuf" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix protpbuf" />
+    <MESSAGE value="fix protobuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix protobuf" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

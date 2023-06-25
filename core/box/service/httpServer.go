@@ -13,7 +13,6 @@ import (
 	"github.com/ipfs/kubo/repo/fsrepo"
 	"github.com/jinzhu/gorm"
 	"github.com/klauspost/cpuid/v2"
-	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p/core/host"
 	"net/http"
 	"net/url"
@@ -137,7 +136,8 @@ func (s *HttpServer) Run() {
 					if val.ID == s.p2pHost.ID() {
 						continue
 					}
-					if network.Connected != s.p2pHost.Network().Connectedness(val.ID) {
+					//log.Infof("connectInfo:%v", s.p2pHost.Network().Connectedness(val.ID).String())
+					if s.p2pHost.Network().Connectedness(val.ID).String() != "Connected" {
 						err := s.p2pHost.Connect(s.ctx, val)
 						if err != nil {
 							log.Errorf("BootstrapPeers connect error :%v", val)
