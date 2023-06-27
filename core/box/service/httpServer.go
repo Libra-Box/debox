@@ -56,6 +56,7 @@ func (s *HttpServer) Init(coreApi coreiface.CoreAPI) {
 	s.coreApi = coreApi
 }
 
+//自定义Http服务
 func NewHttpServer(cfg *config.Config, p2pHost host.Host) *HttpServer {
 	repoPath, err := fsrepo.BestKnownPath()
 	if err != nil {

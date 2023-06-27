@@ -157,3 +157,7 @@ func (s *HttpServer) GetVersionSN_http(c *gin.Context) {
 	respondProto(c, resp)
 	return
 }
+
+func (s *HttpServer) OnlineDeviceList_http(c *gin.Context) {
+	s.p2pHost.Network().Peers()
+}

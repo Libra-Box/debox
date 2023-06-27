@@ -1115,3 +1115,10 @@ message BackupCountResp {
   string msg = 3;
   int32  total = 4;
 }
+
+// 获取在线设备数量
+// "/box/device/onlineDeviceList/1.0.0"
+message OnlineDeviceList {
+  Code   code = 1;
+  repeated string DeviceList = 2;
+}

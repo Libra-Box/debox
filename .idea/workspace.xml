@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="fix protobuf">
+    <list default="true" id="16dd7c01-0d74-4e02-a756-b068fa19d4a5" name="Changes" comment="update httpServer line 140">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/pb/box.proto" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/pb/box.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/box/service/device_api.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/service/device_api.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/box/service/httpServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/box/service/httpServer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +128,8 @@
     <MESSAGE value="edit bootstrap_peers" />
     <MESSAGE value="fix protpbuf" />
     <MESSAGE value="fix protobuf" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix protobuf" />
+    <MESSAGE value="update httpServer line 140" />
+    <option name="LAST_COMMIT_MESSAGE" value="update httpServer line 140" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
