@@ -5,13 +5,15 @@ import (
 	"bytes"
 	"crypto/md5"
 	"fmt"
-	"github.com/ipfs/go-ipfs-files"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"os/exec"
+	"strings"
 	"time"
+
+	files "github.com/ipfs/go-ipfs-files"
 )
 
 //阻塞式的执行外部shell命令的函数,等待执行完毕并返回标准输出
@@ -89,4 +91,31 @@ func getFileBytes(nd files.Node, offset int64, size int) ([]byte, error) {
 	file.Seek(offset, io.SeekCurrent)
 	_, err := file.Read(data)
 	return data, err
+}
+
+var publicIP string
+
+func GetPublicIp() string {
+	if publicIP != "" {
+		return publicIP
+	}
+	resp, err := http.Get("http://myexternalip.com/raw")
+	if err != nil {
+		return ""
+	}
+	defer resp.Body.Close()
+	content, _ := ioutil.ReadAll(resp.Body)
+	publicIP = string(content)
+	return publicIP
+}
+
+func (s *HttpServer) getLocalPeer() string {
+	port := "0"
+	for _, v := range s.P2pHost.Addrs() {
+		splits := strings.Split(v.String(), "/")
+		port = splits[len(splits)-1]
+		break
+	}
+	localPeer := "/ip4/" + GetPublicIp() + "/tcp/" + port + "/p2p/" + s.P2pHost.ID().String()
+	return localPeer
 }

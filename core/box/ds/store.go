@@ -1,10 +1,11 @@
 package ds
 
 import (
+	"strings"
+
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/ipfs/kubo/core/box/model"
 	"github.com/jinzhu/gorm"
-	"strings"
 )
 
 var log = logging.Logger("ds")
@@ -22,7 +23,7 @@ func NewDbStore(db *gorm.DB) *DbStore {
 }
 
 func (s *DbStore) init() {
-	s.db.AutoMigrate(&model.Wallet{}, &model.User{}, &model.File{}, &model.Recycle{}, &model.Share{}, &model.Addressbook{}, &model.BackupsList{}, &model.FileLog{}, &model.SyncSet{}, &model.Cid{}, &model.CidBackups{})
+	s.db.AutoMigrate(&model.User{})
 }
 
 func (s *DbStore) CreateItem(m interface{}) error {

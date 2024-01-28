@@ -128,8 +128,11 @@ require (
 	google.golang.org/protobuf v1.28.1
 )
 
+require github.com/shopspring/decimal v1.3.1 // indirect
+
 require (
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
+	github.com/Andrew-M-C/go.jsonvalue v1.3.6
 	github.com/Kubuxu/go-os-helper v0.0.1 // indirect
 	github.com/Stebalien/go-bitfield v0.0.1 // indirect
 	github.com/alecthomas/units v0.0.0-20210927113745-59d0afb8317a // indirect

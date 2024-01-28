@@ -36,9 +36,7 @@ type Config struct {
 	Experimental Experiments
 	Plugins      Plugins
 	Pinning      Pinning
-	Box          Box
 	Internal     Internal // experimental/unstable options
-	Http         Http
 }
 
 const (

@@ -5,7 +5,6 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 	"errors"
-	"github.com/ipfs/kubo/config"
 )
 
 //加密过程：
@@ -16,9 +15,8 @@ import (
 
 //16,24,32位字符串的话，分别对应AES-128，AES-192，AES-256 加密方法
 //key不能泄露
-var PwdKey = []byte(config.DefaultBoxConfig().SignKey)
 
-//var PwdKey = []byte("123456789012345678901234")
+var PwdKey = []byte("123456789012345678901234")
 
 func AesEncrypt(orig []byte, md5 string) []byte {
 	md5byte := []byte(md5)
